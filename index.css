@@ -1,11 +1,11 @@
 .topnav {
-  background-color: #333;
+  background-color: #BAD6EB;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #0F2C59;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -13,14 +13,17 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #0F2C59;
+  color: #f7f2eB;
 }
 
 .topnav a.active {
-  background-color: #0390fc;
-  color: white;
+  background-color: #0F2C59;
+  color: #f7f2eB;
+  font-weight: bold;
 }
+
+/* the code above is credited to W3 schools https://www.w3schools.com/css/css_navbar.asp*/
 
 h1 {
   text-align: center;
@@ -29,7 +32,12 @@ h1 {
 body {
   padding-left: 2em;
   padding-right: 2em;
-  background-color: #E0E0E0;
+  background-color: #f7f2eB;
+}
+
+.reference {
+  text-align: left;
+  font-size: 12px;
 }
 
 table, th, td {
@@ -41,6 +49,14 @@ img {
   height: auto;
 }
 
-.reference {
-  font-size: 10;
+.edited {
+  max-width: 200px;
+}
+
+video {
+  max-width: 25%;
+}
+
+.accessibility {
+  max-width: 300px;
 }
